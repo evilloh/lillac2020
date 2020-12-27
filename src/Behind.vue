@@ -57,6 +57,7 @@ a {
   max-width: 900px;
   padding-top: 1rem;
   margin: 0 auto;
+  padding-bottom: 4rem;
 }
 a:hover {
   color: white;
@@ -79,7 +80,7 @@ h2 {
 .behind__all {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgb(131, 123, 123);
 }
 .popup__container {
